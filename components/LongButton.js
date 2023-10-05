@@ -2,12 +2,12 @@ import React from "react";
 import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
 import Colors from "../constants/Colors";
 
-const LongButton = () => {
+const LongButton = ({ textField }) => {
     return (
         <TouchableOpacity style={styles.button}>
-            <Text style={styles.text}>Login</Text>
+            <Text style={styles.text}>{textField}</Text>
         </TouchableOpacity>
-    );    
+    );
 }
 
 const styles = StyleSheet.create({
