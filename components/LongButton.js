@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         backgroundColor: Colors.brandColorYellow,
         borderRadius: 12,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     },
     text: {
         fontSize: 20,

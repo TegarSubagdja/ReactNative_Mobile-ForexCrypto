@@ -6,12 +6,14 @@ import Colors from "./constants/Colors";
 import LongButton from "./components/LongButton"
 import TextField from "./components/TextField";
 import Login from "./screens/Login"
+import SignUp from "./screens/SignUp"
+import Home from "./screens/Home"
 
 const App = () => {
   return (
     <View style={{ flex: 1, backgroundColor: Colors.brandColorGray }}>
       <View style={{ flex: 1, margin: 20 }}>
-        <Login />
+        <Home />
       </View>
     </View>
   );
