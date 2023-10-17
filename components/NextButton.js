@@ -5,7 +5,7 @@ import Colors from "../constants/Colors";
 const NextButton = () => {
     return (
         <TouchableOpacity style={styles.button}>
-            <Image source={require('../assets/icons/Forward_1.png')} />
+            {/* <Image source={require('../assets/icons/Forward_1.png')} /> */}
         </TouchableOpacity>
     );
 }
